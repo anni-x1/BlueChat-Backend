@@ -4,12 +4,12 @@
   "description": "backend server for bluechat",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",                   // Run the app
-    "dev": "node server.js",                  // Run the app with nodemon for auto-reloading
-    "lint": "eslint .",                          // Run linting (if you have ESLint set up)
-    "test": "mocha",                            // Run tests (if you're using Mocha)
-    "build": "webpack --config webpack.config.js", // Example build command (for frontend)
-    "heroku-postbuild": "npm run build"         // If you're deploying to Heroku
+    "start": "node server.js",                   
+    "dev": "node server.js",                  
+    "lint": "eslint .",                        
+    "test": "mocha",                            
+    "build": "webpack --config webpack.config.js",
+    "heroku-postbuild": "npm run build"       
   },
 {
   "dependencies": {
