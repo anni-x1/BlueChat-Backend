@@ -2,17 +2,37 @@
   "name": "bluechat-backend",
   "version": "1.0.0",
   "description": "backend server for bluechat",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "start": "node server.js",                
-  },
-
+},
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
     "mongoose": "^8.7.1",
-    "nodemon": "3.1"
-  }
+    "nodemon": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0",                      
+    "mocha": "^10.2.0",                       
+    "webpack": "^5.77.0",                    
+    "webpack-cli": "^5.1.1"                   
+  },
+  "engines": {
+    "node": ">=16.0.0",                       
+    "npm": ">=8.0.0"                          
+  },
+  "author": "Anni",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anni-x1/BlueChat-Backend"
+  },
+  "keywords": [
+    "express",
+    "node.js",
+    "backend"
+  ]
 }
