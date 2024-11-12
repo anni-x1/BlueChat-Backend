@@ -1,4 +1,17 @@
 {
+  "name": "bluechat-backend",
+  "version": "1.0.0",
+  "description": "backend server for bluechat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",                   // Run the app
+    "dev": "node server.js",                  // Run the app with nodemon for auto-reloading
+    "lint": "eslint .",                          // Run linting (if you have ESLint set up)
+    "test": "mocha",                            // Run tests (if you're using Mocha)
+    "build": "webpack --config webpack.config.js", // Example build command (for frontend)
+    "heroku-postbuild": "npm run build"         // If you're deploying to Heroku
+  },
+{
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
     "cors": "^2.8.5",
